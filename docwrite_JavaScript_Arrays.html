@@ -5,12 +5,35 @@
 <p id="demo"></p>
 <p id="demo1"></p>
 <p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+<p id="demo9"></p>
+<p id="demo10"></p>
 
 <script>
     var fruits = ["Apple", "Orange", "Pear", "Grape", "Tangerine", "Mango"];
     document.getElementById("demo").innerHTML = fruits[0];
     document.getElementById("demo1").innerHTML = fruits[3];
     document.getElementById("demo2").innerHTML = fruits.length;
+    document.getElementById("demo3").innerHTML = fruits.toString();
+    document.getElementById("demo4").innerHTML = fruits.join(" * ");
+    fruits.pop();
+    document.getElementById("demo5").innerHTML = fruits.join(" * ");
+    fruits.shift();
+    document.getElementById("demo6").innerHTML = fruits.join(" * ");
+    fruits.push("Cherry")
+    document.getElementById("demo7").innerHTML = fruits.join(" * ");
+    fruits.unshift("Cherry");
+    document.getElementById("demo8").innerHTML = fruits.join(" * ");
+    fruits[0] = "Kiwi";
+    document.getElementById("demo9").innerHTML = fruits.join(" * ");
+    delete fruits[2];
+    document.getElementById("demo10").innerHTML = fruits.join(" * ");
+
 </script>
 
 </body>
