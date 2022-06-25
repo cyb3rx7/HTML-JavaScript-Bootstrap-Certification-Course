@@ -13,6 +13,7 @@
 <p id="demo8"></p>
 <p id="demo9"></p>
 <p id="demo10"></p>
+<p id="demo11"></p>
 
 <script>
     var fruits = ["Apple", "Orange", "Pear", "Grape", "Tangerine", "Mango"];
@@ -33,6 +34,8 @@
     document.getElementById("demo9").innerHTML = fruits.join(" * ");
     delete fruits[2];
     document.getElementById("demo10").innerHTML = fruits.join(" * ");
+    fruits.splice(2, 0, "Lemon", "banana");
+    document.getElementById("demo11").innerHTML = fruits.join(" * ");
 
 </script>
 
