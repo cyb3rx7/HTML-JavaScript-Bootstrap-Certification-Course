@@ -1,0 +1,7 @@
+git commands
+
+git add . //Command to add File
+
+git commit -m "Name-commit" //Command to add tag-Name-commit
+
+git push //Command to uploads New-File
