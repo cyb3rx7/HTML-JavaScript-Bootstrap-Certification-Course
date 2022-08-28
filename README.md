@@ -2,7 +2,7 @@
 ![Certification-Course](https://user-images.githubusercontent.com/54465100/187091437-7d0cffc6-f239-49a6-a0b8-bde3a9725a5d.jpg)
 #
 # HTML-JavaScript-Bootstrap-Certification-Course
-# Html Development is a 100% Done ✔
+# HTML Development is a 100% Done ✔
 # JavaScript Development is a 100% Done ✔
 # Bootstrap Development is a 100% Done ✔
 
